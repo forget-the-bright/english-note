@@ -1,3 +1,5 @@
+import { defaultTheme } from '@vuepress/theme-default'
+import { viteBundler } from '@vuepress/bundler-vite'
 module.exports = {
     base: "/english-note/",
     // 站点配置
@@ -12,8 +14,8 @@ module.exports = {
         description: '从0开始学习英语语法',
       },
     },
-
-    themeConfig: {
+    theme: defaultTheme({
+      // 在这里添加主题配置
       docsRepo: 'https://github.com/hzpt-inet-club/english-note',
       docsBranch: 'master',
       docsDir: 'docs',
@@ -31,6 +33,10 @@ module.exports = {
         '/guide/preposition.md',
         '/guide/compare.md',
       ],
-    },
+    }),
+    bundler: viteBundler({
+      viteOptions: {},
+      vuePluginOptions: {},
+    }),
     
   }

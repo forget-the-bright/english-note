@@ -34,13 +34,13 @@
 1. 下载到本地
 
 ```shell
-git clone https://github.com/hzpt-inet-club/english-note.git
+git clone https://github.com/forget-the-bright/english-note.git
 ```
 
 2. 进入更目录后
 
 ```shell
-yarn init
+yarn
 ```
 
 3. 运行
@@ -52,7 +52,7 @@ yarn docs:dev
 
 本项目使用 [VuePress](https://github.com/vuepress/vuepress-next) 进行文档编写，并且使用 [GitHub Actions](https://github.com/features/actions) 全自动的部署在 [GitHub Page](https://pages.github.com) 上。
 
-所有的内容在 [docs](https://github.com/hzpt-inet-club/english-note/tree/master/docs) 文件夹内，全部内容都采用了 [MarkDown](https://daringfireball.net/projects/markdown/) 的形式进行编写。
+所有的内容在 [docs](https://github.com/forget-the-bright/english-note/tree/master/docs) 文件夹内，全部内容都采用了 [MarkDown](https://daringfireball.net/projects/markdown/) 的形式进行编写。
 
 ## 维护者
 
